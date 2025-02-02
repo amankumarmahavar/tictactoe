@@ -49,6 +49,9 @@ flutter run --release
 - **Server**: Node.js, Express, Socket.io, Mongoose, MongoDB
 - **Client**: Flutter, Provider
 
+## Screenshots
+<img src="https://github.com/amankumarmahavar/snake/blob/main/ss/2.png" width="49%"/> <img src="https://github.com/amankumarmahavar/snake/blob/main/ss/3.png" width="49%"/> <img src="https://github.com/amankumarmahavar/snake/blob/main/ss/snake4.png" width="49%"/> <img src="https://github.com/amankumarmahavar/snake/blob/main/ss/4.png" width="49%"/> <img src="https://github.com/amankumarmahavar/snake/blob/main/ss/5.png" width="49%"/>
+
 ## Credits
 This app was inspired by the tutorial made by [RivaanRanawat](https://github.com/RivaanRanawat). Special thanks to their [YouTube tutorial](https://www.youtube.com/RivaanRanawat) for the guidance and resources.
 
