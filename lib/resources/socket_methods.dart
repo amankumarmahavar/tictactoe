@@ -11,7 +11,7 @@ class SocketMethods {
   final _socketClient = SocketClient.instance.socket!;
 
   void createRoom(String nickname) {
-    if (nickname.isNotEmpty) {
+    if (nickname.isNotEmpty && _socketClient.connected) {
       _socketClient.emit("createRoom", {'nickname': nickname});
     }
   }
@@ -23,7 +23,7 @@ class SocketMethods {
   }
 
   void joinRoom(String nickname, String roomId) {
-    if (nickname.isNotEmpty && roomId.isNotEmpty) {
+    if (nickname.isNotEmpty && roomId.isNotEmpty && _socketClient.connected) {
       _socketClient.emit('joinRoom', {'nickname': nickname, 'roomId': roomId});
     }
   }
